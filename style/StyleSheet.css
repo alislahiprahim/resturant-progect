@@ -1,0 +1,13 @@
+﻿* 
+{
+padding:0px;
+margin:0px;
+background-color:rgb(237,237,237);
+font-family:Arial;
+font-size:16px;
+}
+..navbar-expand-lg .navbar-nav
+{
+    position:absolute;
+    left:80%;
+}

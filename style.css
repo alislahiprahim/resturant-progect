@@ -1,0 +1,71 @@
+﻿* 
+{
+padding:0px;
+margin:0px;
+background-color:rgb(237,237,237);
+font-family:Algerian!important;
+transition:1s;
+}
+.navbar-expand-lg .navbar-nav
+{
+    background-color:transparent !important;
+    position:absolute;
+    left:55%;
+    top:0%;
+}
+.nav-link
+{
+    background-color:transparent !important;
+    padding:10px !important;
+    padding-top:40px !important;
+    background-color:transparent;
+    font-size:20px;
+}
+
+.nav-link:hover
+{
+    border-top:2px solid #e2785d;
+    color:#E2785D !important;
+}
+
+.logo {
+    background-color:transparent !important;
+
+    position: absolute;
+    top: 0%;
+    padding-top: 10px !important;
+    height: 65px;
+    padding-left: 20px !important;
+}
+
+
+.part1
+{
+    background-color:transparent !important;
+    padding:200px;  
+    text-align:center;
+    background-image:url(http://localhost:62285/style/images/shutterstock_277750193.jpg);
+    background-size: 100% 100%;
+
+}
+.part1 img
+{
+    background-color:transparent !important;
+    background-color:none;
+}
+.part1 h1
+{
+    color:#fff;
+    background-color:transparent !important;
+    background-color:none;
+}
+.part1 button
+{
+    background-color:transparent !important;
+
+}
+.part1 h5
+{
+    color:#fff;
+    background-color:transparent !important;
+}

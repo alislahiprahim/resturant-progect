@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server"></asp:ContentPlaceHolder>
+    </title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="home.aspx">
+       <img  class="logo" src="style/images/restaurant-3-light.png" />
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto ">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.aspx">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="aboutUs.aspx">About Us <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="menu.aspx">Menu <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="menu.aspx">gallery <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="menu.aspx">Blog <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="menu.aspx">Contact <span class="sr-only">(current)</span></a>
+      </li>
+
+    </ul>
+  </div>
+</nav>        
+
+
+
+
+
+
+
+                <div class="content">
+
+                            <asp:ContentPlaceHolder id="contentBody" runat="server">
+
+                            </asp:ContentPlaceHolder>
+
+                </div>
+
+            </div>
+
+
+
+
+
+    </div>
+    </form>
+</body>
+</html>
